@@ -58,3 +58,17 @@ issues faced
 Issue: File had no output when using cat  
 Cause: Created `text.txt` but wrote data into `test.txt`  
 Fix: Used correct filename consistently
+
+every file has 3 permission groups
+r = read
+w = write
+x = execute
+
+### Script Execution Behavior
+
+Observed that scripts can run without execute permission
+when executed using `bash script.sh`.
+
+Key learning:
+- `./script.sh` requires execute permission
+- `bash script.sh` requires only read permission
