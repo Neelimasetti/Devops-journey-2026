@@ -43,7 +43,13 @@ working from the Linux terminal.
 - Write (w)
 - Execute (x)
 
-Commands practiced:
-```bash
-chmod
-chown
+## Practice Example
+
+mkdir practice
+cd practice
+touch test.txt
+echo "Hello Linux" > test.txt
+cat test.txt
+
+output
+hello linux
