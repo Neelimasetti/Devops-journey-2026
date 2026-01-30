@@ -53,3 +53,8 @@ cat test.txt
 
 output
 hello linux
+
+issues faced 
+Issue: File had no output when using cat  
+Cause: Created `text.txt` but wrote data into `test.txt`  
+Fix: Used correct filename consistently
