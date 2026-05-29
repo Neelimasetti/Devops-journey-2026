@@ -1,20 +1,51 @@
-# Devops-zero-to-hero
-basic and practicing the Git repository this is the first time i am trying this site
+# DevOps Journey 2026 🚀
 
-# DevOps Zero to Hero 🚀
+Welcome to my DevOps learning journey repository.
 
-This repository documents my complete journey of learning DevOps with AWS,
-from absolute beginner to advanced level.
+This repository contains my hands-on practice, notes, labs, and mini-projects while learning:
 
-## What this repo contains
-- Linux fundamentals
+- Linux Administration
 - Git & GitHub
-- AWS Cloud
-- CI/CD pipelines
-- Docker & Kubernetes
-- Infrastructure as Code
-- Monitoring & Security
-- Real-world DevOps projects
+- Docker
+- Kubernetes
+- AWS/Azure Cloud
+- CI/CD Pipelines
+- Shell Scripting
+- DevOps Projects
 
-## Goal
-To become job-ready DevOps Engineer with strong hands-on experience.
+## 📚 Learning Progress
+
+### ✅ Linux
+- File management
+- Permissions
+- User management
+- Networking
+- Shell scripting
+
+### ✅ Git & GitHub
+- Branching
+- Merging
+- Stash
+- Revert
+- Remote repositories
+
+### ✅ Docker
+- Containers
+- Images
+- Dockerfiles
+- Volumes
+- Networking
+
+## 🎯 Goal
+To become a job-ready DevOps Engineer through consistent hands-on practice and real-world projects.
+
+## 🛠️ Tools & Technologies
+- Linux
+- Git
+- GitHub
+- Docker
+- AWS
+- Kubernetes
+
+## 📌 Current Focus
+Building practical DevOps projects and improving automation skills.
