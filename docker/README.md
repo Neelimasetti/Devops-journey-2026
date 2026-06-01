@@ -409,6 +409,7 @@ Container can be deleted without losing data.
 
 ---
 
+<<<<<<< HEAD
 ----------------------------------------------
 docker images
 docker ps
@@ -420,6 +421,20 @@ docker volume ls
 docker build -t my-python-app .
 docker run -d -p 5000:5000 --name my-python my-python-app
 ------------------------------------------------
+=======
+docker images
+ docker ps 
+ docker ps -a
+  docker logs -f
+   docker exec -it bash
+    docker network ls
+     docker volume ls
+      docker build -t my-python-app .
+       docker run -d -p 5000:5000 --name my-python my-python-app
+      
+-----------------------
+      
+>>>>>>> 2600b70 (added contents in docker)
 # MySQL + Adminer Lab
 
 Practical project completed using:
