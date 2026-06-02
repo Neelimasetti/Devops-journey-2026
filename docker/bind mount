@@ -1,0 +1,58 @@
+# Nginx + Docker Compose Project
+
+## Objective
+
+Deploy a static website using Nginx and Docker Compose.
+
+## Project Structure
+
+```text
+nginx-compose/
+├── docker-compose.yml
+└── index.html
+```
+
+## Docker Compose File
+
+* Used the official Nginx image.
+* Exposed port 8081 on the host.
+* Mounted the local HTML file into the container using a bind mount.
+
+## Concepts Learned
+
+### Port Mapping
+
+```yaml
+ports:
+  - "8081:80"
+```
+
+Host port 8081 forwards traffic to port 80 inside the Nginx container.
+
+### Bind Mount
+
+```yaml
+volumes:
+  - ./index.html:/usr/share/nginx/html/index.html
+```
+
+The local HTML file is directly mounted into the container.
+
+### Nginx
+
+Nginx serves static web content and is commonly used as a web server and reverse proxy.
+
+## Result
+
+Successfully accessed the website using:
+
+http://localhost:8081
+
+The page displayed:
+
+* Welcome to Neelima's Docker Website
+* Nginx + Docker Compose Project
+* Hello Docker Compose
+
+```
+```
