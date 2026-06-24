@@ -49,3 +49,45 @@ To become a job-ready DevOps Engineer through consistent hands-on practice and r
 
 ## 📌 Current Focus
 Building practical DevOps projects and improving automation skills.
+
+
+
+## Typical Workflow
+
+Developer
+↓
+GitHub
+↓
+CI/CD Pipeline (Jenkins)
+↓
+Docker Image Build
+↓
+Docker Compose / Kubernetes
+↓
+Cloud Infrastructure (AWS/Azure/GCP)
+↓
+Nginx / Load Balancer
+↓
+End Users
+
+
+## Responsibilities
+# Source Control
+Manage Git repositories
+Maintain GitHub workflows
+Handle branching and merging
+# Containerization
+Create Dockerfiles
+Build Docker images
+Manage Docker containers
+# Orchestration
+Use Docker Compose for multi-container applications
+Deploy workloads using Kubernetes
+# CI/CD
+Automate builds and deployments
+Use tools such as Jenkins
+# Cloud Deployment
+Deploy applications on AWS, Azure, or GCP
+# Monitoring
+Track CPU, memory, logs, and application health
+Use tools such as Grafana and Prometheus
